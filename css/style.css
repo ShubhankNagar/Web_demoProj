@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* background-color: #dbdbdb; */
 }
 
 .logo{
@@ -74,6 +75,7 @@
 }
 
 .box-main{
+    /* background-color:white;     */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +129,10 @@
     vertical-align: middle;
     font-size: 16px;
 }
+.btn:hover{
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
 
 .section{
     height: 400px;
@@ -136,6 +142,8 @@
     margin: auto;
     max-width: 80%;
     font-family: 'Ubuntu', sans-serif;
+    background-color: grey;
+    background:none;
 }
 
 .secleft{
